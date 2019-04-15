@@ -1,35 +1,35 @@
 {
-  "short_name": "WEB3 - Quiz 1",
-  "name": "WEB3Q1",
-  "start_url": "/",
-  "background_color": "#3367D6",
-  "display": "fullscreen",
-  "scope": "/",
+  "name": "WEB 3 QUIZ Ilham",
+  "short_name": "ILHAM FARIS",
   "theme_color": "#6f6f76",
-  "orientaion" : "potrait",
+  "background_color": "#b8bbbe",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
   "icons": [
     {
-      "src": "/images/icons-48.png",
+      "src": "images/icons-48.png",
       "type": "image/png",
       "sizes": "48x48"
     },{
-      "src": "/images/icons-96.png",
+      "src": "images/icons-96.png",
       "type": "image/png",
       "sizes": "96x96"
     },{
-      "src": "/images/icons-192.png",
+      "src": "images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },{
-      "src": "/images/icons-256.png",
+      "src": "images/icons-256.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
-  
+  ],
+  "splash_pages": null
 }
