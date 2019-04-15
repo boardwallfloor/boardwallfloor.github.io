@@ -1,0 +1,23 @@
+{
+  "short_name": "WEB3 - Quiz 1",
+  "name": "WEB3Q1",
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#6f6f76",
+  "orientaion" : "potrait",
+  "icons": [
+    {
+      "src": "/images/icons-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+  
+}

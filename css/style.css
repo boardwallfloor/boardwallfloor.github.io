@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	padding:20px;
+	background: #fff;
+	font-family: "Segoe UI",sans-serif;
+}
+.login{
+	width:400px;
+	height:500px;
+	box-shadow: 20px 50px 20px rgba(0,0,0,0.3);
+}
+.login .header .bolongan{
+	width: 80px;
+	height: 10px;
+	background: #a3c18f;
+	border-radius: 40px;
+}
+.login .header{
+	padding-top:13px;
+	background: #ccffd0;
+}
+.login .header h2{
+	color:#a4c28f;
+}
+.login .header img{
+	width: 50%;
+}
+.login .form{
+	padding-top:23px;
+	position: relative;
+	background: #ccffd0;
+	padding-bottom: 45px;
+}
+.login .form input{
+	padding:13px 19px;
+	margin:5px;
+	width: 70%;
+	border-radius: 30px;
+	color:#aaa;
+	outline: none;
+	border:none;
+}
+.login .form button{
+	position: absolute;
+	top:150px;
+	left:40px;
+	color:#fff;
+	background: #ff8201;
+	width: 80%;
+	padding:13px 19px;
+	cursor: pointer;
+	border-radius: 30px;
+	border:none;
+	outline: none;
+}
+.login .or{
+	background: #6fe0a0;
+	color:#fff;
+	padding:14px;
+}
+.footer{
+	background: #b6d287;
+	color:#fff;
+}
+.footer p{
+	margin:0;
+	padding:17px;
+}
+.footer a{
+	text-decoration: none;
+	color:#5672c5;
+}
