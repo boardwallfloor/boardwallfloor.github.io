@@ -93,3 +93,6 @@ weight = 20
 
 [markup.highlight]
 noClasses = false
+
+[params.assets]
+  favicon = "https://boardwallfloor.github.io/saturn.png"
