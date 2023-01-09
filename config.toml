@@ -80,6 +80,12 @@ tocopen = false
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 5
+
+[[menu.main]]
 identifier = "categories"
 name = "categories"
 url = "/categories/"
