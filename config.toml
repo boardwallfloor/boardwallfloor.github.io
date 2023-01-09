@@ -2,3 +2,10 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
+
+  [params.assets]
+  favicon = "https://boardwallfloor.github.io/saturn.png"
+  favicon16x16 = "https://boardwallfloor.github.io/saturn.png"
+  favicon32x32 = "https://boardwallfloor.github.io/saturn.png"
+  apple_touch_icon = "https://boardwallfloor.github.io/saturn.png"
+  safari_pinned_tab = "https://boardwallfloor.github.io/saturn.png"
