@@ -35,3 +35,61 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
+
+[params.profileMode]
+  enabled = true
+  title = "5x5 Starter"
+  subtitle = "Dev log, Post mortem, diaries and thought. Maybe."
+  imageUrl = "https://boardwallfloor.github.io/saturn.png"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "icons by Creatype"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hello"
+  Content = "Dev log, Post mortem, diaries and thought. Maybe."
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/boardwallfloor/"
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/faris-takhassuna-zamzani-05b348187/"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[markup.highlight]
+noClasses = false
